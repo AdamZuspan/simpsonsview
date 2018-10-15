@@ -97,11 +97,14 @@
 		84C9FE8921750FB700DE7308 /* simpsonsviewer */ = {
 			isa = PBXGroup;
 			children = (
+				84C9FEBD2175105D00DE7308 /* Storyboards */,
+				84C9FEBC2175101300DE7308 /* Router */,
+				84C9FEBB2175100800DE7308 /* Entitys */,
+				84C9FEBA21750FF600DE7308 /* Presenters */,
+				84C9FEB921750FDC00DE7308 /* Interactors */,
+				84C9FEB821750FCD00DE7308 /* Views */,
 				84C9FE8A21750FB700DE7308 /* AppDelegate.swift */,
-				84C9FE8C21750FB700DE7308 /* ViewController.swift */,
-				84C9FE8E21750FB700DE7308 /* Main.storyboard */,
 				84C9FE9121750FB900DE7308 /* Assets.xcassets */,
-				84C9FE9321750FB900DE7308 /* LaunchScreen.storyboard */,
 				84C9FE9621750FB900DE7308 /* Info.plist */,
 			);
 			path = simpsonsviewer;
@@ -123,6 +126,51 @@
 				84C9FEAC21750FB900DE7308 /* Info.plist */,
 			);
 			path = simpsonsviewerUITests;
+			sourceTree = "<group>";
+		};
+		84C9FEB821750FCD00DE7308 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FE8C21750FB700DE7308 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84C9FEB921750FDC00DE7308 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		84C9FEBA21750FF600DE7308 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		84C9FEBB2175100800DE7308 /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entitys;
+			sourceTree = "<group>";
+		};
+		84C9FEBC2175101300DE7308 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84C9FEBD2175105D00DE7308 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FE8E21750FB700DE7308 /* Main.storyboard */,
+				84C9FE9321750FB900DE7308 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
